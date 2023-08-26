@@ -1,0 +1,116 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-size: 18px;
+    color: white;
+    font-family: Outfit;
+}
+
+#main-container {
+    height: 80%;
+    width: 90%;
+    margin: 35px 20px 35px 20px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+}
+
+#nft-image {
+    height: 80%;
+    width: 86%;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+h3, .para-text, #icon-text, #profile-text {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.para-text {
+    opacity: 40%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#icon-text {
+    display: flex;
+}
+
+.ether-text {
+    margin-left: 8px;
+    position: relative;
+    top: 2px;
+    font-size: 0.8rem;
+    color: hsl(178, 100%, 50%);
+}
+
+.clock-image {
+    margin-left: 118px;
+}
+
+.clock-text {
+    margin-left: 10px;
+    position: relative;
+    top: 1px;
+    font-size: 0.9rem;
+    color: hsl(215, 51%, 70%);
+}
+
+.divider-line {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    right: 12%;
+    height:5.5rem;
+    border-top: 2px solid hsl(215, 51%, 70%, 0.2);
+    z-index: 1;
+}
+
+#profile-text {
+    display: flex;
+}
+
+.avatar-image {
+    height: 30px;
+    margin-top: 30px;
+    margin-bottom: 40%;
+    padding: 1px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.profile-text {
+    margin-top: 38px;
+    margin-left: 15px;
+    color: hsl(215, 51%, 70%);
+    font-size: 0.9rem;
+}
+
+@media(min-width: 375px) {
+    #main-container {
+        height: 15%;
+        width: 20%;
+        margin: 85px 0px 0px 600px;
+        border-radius: 15px;
+    }
+
+    .divider-line {
+        bottom: 23px;
+        left: 40.3%;
+        right: 42.5%;
+        height:9.2rem;
+    }
+
+    .clock-image {
+        margin-left: 90px;
+    }
+
+    .para-text {
+        font-size: 0.9rem;
+    }
+}
